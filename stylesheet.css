@@ -2,12 +2,12 @@
     text-align: center;
     font-size: 70px;
     text-shadow: 5px 5px 5px white;
-    transform: scale(1.5,);
+    transform: scale(1.5,2); /*makes title bigger*/
     
 }
 
 body {
-    background: linear-gradient(to right, green, blue);
+    background: linear-gradient(to right, green, blue); /*changes background from green to blue*/
 }
 
 
@@ -15,12 +15,12 @@ body {
 #xbox {
     font-size: 40px;
     text-align: left;
-    transition: font-size 2s, text-align 2s;
+    transition: font-size 2s, text-align 2s;/*makes xbox grow when mouse is over it*/
 }
 
 #xbox:hover {
     font-size: 60px;
-      text-align: left; 
+      text-align: left; /*makes xbox grow when mouse is over it*/
 }
 img {
     background-image: url(http://parsingame.com/Content/News/20141004195630.jpg);
@@ -48,16 +48,16 @@ img {
     to {
         left: 100px;
         top: 100px;
-    }
+    } /*lets images transform*
 }
 
 #ps4{
     text-align: right;
     font-size: 40px;
-    transition: font-size 2s, text-align 2s;
+    transition: font-size 2s, text-align 2s; /*makes ps4 grow when mouse is over it*/
 }
 
 #ps4:hover {
       font-size: 60px;
-      text-align: right;
+      text-align: right; /*makes ps4 grow when mouse is over it*/
 }
