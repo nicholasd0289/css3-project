@@ -1,7 +1,11 @@
+
  
 
 #choice {
     text-align: center;
     font-size: 70px;
     text-shadow: 5px 5px 5px white;
+
+body {
+    background: linear-gradient(to right, green, blue);
 }
