@@ -2,7 +2,51 @@
     text-align: center;
     font-size: 70px;
     text-shadow: 5px 5px 5px white;
+}
 
 body {
     background: linear-gradient(to right, green, blue);
+}
+
+#ps4 {
+    text-align: right;
+    font-size: 40px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#xbox {
+    font-size: 40px;
+    text-align: left;
+}
+
+img {
+    background-image: url(http://parsingame.com/Content/News/20141004195630.jpg);
+    float: right;
+    width: 200px;
+    animation-name: playstation;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#xbox-img {
+    background-image: url(http://img.clubic.com/032001F407357013-c1-photo-oYToxOntzOjU6ImNvbG9yIjtzOjU6IndoaXRlIjt9-console-microsoft-xbox-one-sans-kinect.jpg);
+    float: left;
+}
+
+@keyframes playstation {
+    from {
+        left: 50px;
+        top: 50px;
+    }
+    to {
+        left: 100px;
+        top: 100px;
+    }
+}
+#ps4: hover {
+      transform: width: 300px;;
 }
